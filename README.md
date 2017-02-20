@@ -1,3 +1,8 @@
+[![NPM version](https://img.shields.io/npm/v/@slicky/translator.svg?style=flat-square)](https://www.npmjs.com/package/@slicky/translator)
+[![Build Status](https://img.shields.io/travis/SlickyJS/Translator.svg?style=flat-square)](https://travis-ci.org/SlickyJS/Translator)
+
+[![Donate](https://img.shields.io/badge/donate-PayPal-brightgreen.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AC6F2WJ9ZRAWJ)
+
 # Slicky/Translator
 
 Typescript translator
