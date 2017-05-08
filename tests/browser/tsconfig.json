@@ -4,14 +4,8 @@
 		"removeComments": true,
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
-		"declaration": true,
-		"outDir": "./lib",
-		"declarationDir": "./lib",
 		"lib": [
 			"es5", "es2015.promise", "dom"
 		]
-	},
-	"include": [
-		"./src/**/*.ts"
-	]
+	}
 }

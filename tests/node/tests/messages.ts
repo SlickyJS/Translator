@@ -1,4 +1,4 @@
-import {Messages} from '../../src/messages';
+import {Messages} from '../../../src/messages';
 import {expect} from 'chai';
 
 
