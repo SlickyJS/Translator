@@ -14,32 +14,20 @@
 	"main": "./lib/index.js",
 	"types": "./lib/index.d.ts",
 	"dependencies": {
-		"@slicky/utils": "^1.0.5",
-		"@slicky/core": "SlickyJS/Core#master",
-		"@slicky/lang": "SlickyJS/Lang#master",
-		"@slicky/di": "SlickyJS/DI#master"
+		"@slicky/utils": "^1.0.5"
 	},
 	"devDependencies": {
-		"typescript": "^2.1.0",
-		"ts-node": "^2.1.0",
-		"ts-loader": "^2.0.0",
-		"reflect-metadata": "^0.1.0",
-		"webpack": "^2.2.0",
-
-		"mocha": "^3.2.0",
-		"chai": "^3.5.0",
-		"mocha-phantomjs": "^4.1.0",
-
-		"@types/node": "^7.0.0",
-		"@types/mocha": "^2.2.0",
-		"@types/chai": "^3.4.0"
+		"@types/chai": "^4.0.3",
+		"@types/mocha": "^2.2.41",
+		"@types/node": "^8.0.22",
+		"chai": "^4.1.1",
+		"mocha": "^3.5.0",
+		"ts-node": "^3.3.0",
+		"typescript": "^2.5.2"
 	},
 	"scripts": {
-		"build-source": "tsc",
-		"build-tests": "cd tests/browser && webpack",
-		"test-node": "cd tests/node && mocha -r ts-node/register index.ts",
-		"test-browser": "cd tests/browser && mocha-phantomjs index.html",
-		"pretest": "npm run build-source && npm run build-tests",
-		"test": "npm run test-node && npm run test-browser"
+		"build": "tsc",
+		"pretest": "npm run build",
+		"test": "cd tests && mocha -r ts-node/register index.ts"
 	}
 }

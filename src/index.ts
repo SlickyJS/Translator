@@ -1,3 +1,2 @@
-export {Translator} from './translator';
-export {LocalesMessagesList} from './messages';
-export * from './bridges';
+export * from './translator';
+export * from './messages';

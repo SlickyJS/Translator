@@ -2,14 +2,9 @@
 	"compilerOptions": {
 		"target": "es5",
 		"removeComments": true,
-		"emitDecoratorMetadata": true,
-		"experimentalDecorators": true,
 		"declaration": true,
 		"outDir": "./lib",
-		"declarationDir": "./lib",
-		"lib": [
-			"es5", "es2015.promise", "dom"
-		]
+		"declarationDir": "./lib"
 	},
 	"include": [
 		"./src/**/*.ts"

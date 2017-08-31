@@ -1,4 +1,4 @@
-import {Translator} from '../../../src/translator';
+import {Translator} from '../../src/translator';
 import {expect} from 'chai';
 
 
